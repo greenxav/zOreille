@@ -34,7 +34,7 @@ void setup() {
 
 void loop() {
   // Ecoute du port série pour les commandes éventuelles
-  ecoutePortSerie;
+  ecoutePortSerie;//rien
 
   // Soustraction de l'echantillon précédent
   totalEchantillons = totalEchantillons - echantillon[indiceEchantillons];
